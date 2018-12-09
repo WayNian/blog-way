@@ -1,7 +1,8 @@
 <template>
-  <div>
-    主页
-  </div>
+ <div>
+   布局
+   <router-view/>
+ </div>
 </template>
 
 <script>
