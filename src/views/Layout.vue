@@ -1,8 +1,8 @@
 <template>
- <div>
-   布局
-   <router-view/>
- </div>
+  <div>
+    布局
+    <router-view />
+  </div>
 </template>
 
 <script>

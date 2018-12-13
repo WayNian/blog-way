@@ -1,74 +1,91 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import Vue from "vue";
+import Router from "vue-router";
 
-Vue.use(Router)
+Vue.use(Router);
 
-const staticRoute = [{
+const staticRoute = [
+  {
     path: "/",
     redirect: "/home"
-  }, {
-    path: "/error/404",
-    component: () => import("../views/404"),
   },
   {
-    path: '/',
+    path: "/error/404",
+    component: () => import("../views/404")
+  },
+  {
+    path: "/",
     component: () => import("../views/Layout"),
-    children: [{
-      path: "home",
-      component: () => import("../views/Home")
-    }, {
-      path: "article",
-      component: () => import("../views/Article")
-    }, {
-      path: "article-info/:id",
-      name: "article-info",
-      component: () => import("../views/ArticleInfo")
-    }, {
-      path: "archives",
-      component: () => import("../views/Archives")
-    }, {
-      path: "tag",
-      component: () => import("../views/Tag")
-    }, {
-      path: "link",
-      component: () => import("../views/Link")
-    }, {
-      path: "about",
-      component: () => import("../views/About")
-    }, {
-      path: "comments",
-      component: () => import("../views/Comments")
-    }, ]
+    children: [
+      {
+        path: "home",
+        component: () => import("../views/Home")
+      },
+      {
+        path: "article",
+        component: () => import("../views/Article")
+      },
+      {
+        path: "article-info/:id",
+        name: "article-info",
+        component: () => import("../views/ArticleInfo")
+      },
+      {
+        path: "archives",
+        component: () => import("../views/Archives")
+      },
+      {
+        path: "tag",
+        component: () => import("../views/Tag")
+      },
+      {
+        path: "link",
+        component: () => import("../views/Link")
+      },
+      {
+        path: "about",
+        component: () => import("../views/About")
+      },
+      {
+        path: "comments",
+        component: () => import("../views/Comments")
+      }
+    ]
   },
   {
     path: "/login",
     component: () => import("../views/manage/Login")
   },
   {
-    path: '/manage',
+    path: "/manage",
     component: () => import("../views/manage/Layout"),
-    children: [{
-      path: "dashboard",
-      component: () => import("../views/manage/Dashboard")
-    }, {
-      path: "create",
-      component: () => import("../views/manage/ArticleCreate")
-    }, {
-      path: "mManage",
-      component: () => import("../views/manage/ArticleManage")
-    }, {
-      path: "link",
-      component: () => import("../views/manage/LinkManage")
-    }, {
-      path: "tag",
-      component: () => import("../views/manage/TagManage")
-    }]
+    children: [
+      {
+        path: "dashboard",
+        component: () => import("../views/manage/Dashboard")
+      },
+      {
+        path: "create",
+        component: () => import("../views/manage/ArticleCreate")
+      },
+      {
+        path: "mManage",
+        component: () => import("../views/manage/ArticleManage")
+      },
+      {
+        path: "link",
+        component: () => import("../views/manage/LinkManage")
+      },
+      {
+        path: "tag",
+        component: () => import("../views/manage/TagManage")
+      }
+    ]
   },
   {
     path: "*",
     redirect: "/error/404"
   }
-]
+];
 
 const router = new Router({
   routes: staticRoute

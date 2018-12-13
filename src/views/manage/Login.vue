@@ -1,7 +1,5 @@
 <template>
-  <v-app id="inspire">
-    登录
-  </v-app>
+  <v-app id="inspire"> 登录 </v-app>
 </template>
 
 <script>
