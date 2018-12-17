@@ -35,6 +35,6 @@
 export default {
   data: () => ({
     title: "Your Logo"
-  })
+  }),
 };
 </script>
