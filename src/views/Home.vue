@@ -2,16 +2,24 @@
   <v-app light>
     <section>
       <v-parallax
-        src="../assets/bg1.png"
+        src="https://images2.alphacoders.com/914/thumb-1920-914910.jpg"
         height="600"
       >
         <v-layout column align-center justify-center class="white--text">
           <img src="../assets/logo.png" alt="Vuetify.js" height="200" />
           <h1 class="cyan--text text--darken-3 mb-2 display-2 text-xs-center">
-           {{hitokoto.hitokoto}}
+            {{ hitokoto.hitokoto }}
           </h1>
-          <h2 class="cyan--text text--darken-3 mb-2 display-1 text-xs-center">-- {{hitokoto.from}}</h2>
-          <v-btn class="blue lighten-2 mt-5" dark large _blank href="https://github.com/WayNian">
+          <h2 class="cyan--text text--darken-3 mb-2 display-1 text-xs-center">
+            -- {{ hitokoto.from }}
+          </h2>
+          <v-btn
+            class="blue lighten-2 mt-5"
+            dark
+            large
+            _blank
+            href="https://github.com/WayNian"
+          >
             Github
           </v-btn>
         </v-layout>
@@ -172,20 +180,20 @@
 </template>
 
 <script>
-import axios from "axios"
+import axios from "axios";
 export default {
   data: () => ({
     hitokoto: {}
   }),
-    mounted(){
-    let url = "https://v1.hitokoto.cn/"
-    axios.get(url).then((res)=>{
-      console.log(JSON.stringify(res.data));
-      this.hitokoto = res.data
-    })
-    .catch(()=>{
-
-    })
+  mounted() {
+    let url = "https://v1.hitokoto.cn/";
+    axios
+      .get(url)
+      .then(res => {
+        console.log(JSON.stringify(res.data));
+        this.hitokoto = res.data;
+      })
+      .catch(() => {});
   }
 };
 </script>
