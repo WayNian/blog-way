@@ -5,21 +5,17 @@ Vue.use(Router);
 
 const staticRoute = [
   {
-    path: "/",
-    redirect: "/home"
-  },
-  {
     path: "/error/404",
     component: () => import("../views/404")
   },
   {
     path: "/",
+    component: () => import("../views/Home")
+  },
+  {
+    path: "/",
     component: () => import("../views/Layout"),
     children: [
-      {
-        path: "home",
-        component: () => import("../views/Home")
-      },
       {
         path: "article",
         component: () => import("../views/Article")
