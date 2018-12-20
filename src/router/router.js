@@ -17,6 +17,10 @@ const staticRoute = [
     component: () => import("../views/Layout"),
     children: [
       {
+        path: "one-read",
+        component: () => import("../views/OneRead")
+      },
+      {
         path: "article",
         component: () => import("../views/Article")
       },

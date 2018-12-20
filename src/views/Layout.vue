@@ -2,7 +2,12 @@
   <v-app id="inspire" light v-scroll="onScroll">
     <v-navigation-drawer v-model="drawer" fixed clipped app>
       <v-list dense>
-        <v-list-tile v-for="item in items" :key="item.text" @click="">
+        <v-list-tile
+          v-for="item in items"
+          :key="item.text"
+          :to="item.path"
+          replace
+        >
           <v-list-tile-action>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-tile-action>
@@ -14,7 +19,7 @@
     </v-navigation-drawer>
     <v-toolbar color="white" dense fixed clipped-left app>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-icon class="mx-3">fab fa-youtube</v-icon>
+      <v-icon class="mx-3" @click="goIndex">fab fa-apple</v-icon>
       <v-toolbar-title class="ml-0 pl-3">
         <span class="hidden-sm-and-down">Waynian</span>
       </v-toolbar-title>
@@ -57,12 +62,12 @@ export default {
     dialog: false,
     drawer: null,
     items: [
-      { icon: "contacts", text: "每日一读" },
-      { icon: "history", text: "博客" },
-      { icon: "content_copy", text: "友链" },
-      { icon: "chat_bubble", text: "归档" },
-      { icon: "help", text: "留言" },
-      { icon: "settings", text: "个人信息" }
+      { icon: "fas fa-book-open", text: "每日一读", path: "/one-read" },
+      { icon: "fas fa-blog", text: "博客", path: "/article" },
+      { icon: "fas fa-link", text: "友链", path: "/link" },
+      { icon: "fas fa-archive", text: "归档", path: "/archives" },
+      { icon: "fas fa-comments", text: "留言", path: "/comments" },
+      { icon: "fas fa-wheelchair", text: "关于", path: "/about" }
     ]
   }),
   props: {
@@ -74,6 +79,9 @@ export default {
     },
     scrollTop() {
       $("html,body").animate({ scrollTop: 0 }, 500);
+    },
+    goIndex() {
+      this.$router.replace("/");
     }
   }
 };

@@ -9,7 +9,7 @@
           <h1 class=" text--darken-3 mb-2 display-1  text-xs-center">
             {{ hitokoto.hitokoto }}
           </h1>
-          <v-btn class="blue lighten-2 mt-5" dark large _blank to="/article">
+          <v-btn class="blue lighten-2 mt-5" dark large _blank to="/one-read">
             Get Start
           </v-btn>
         </v-layout>
@@ -320,7 +320,6 @@ export default {
     axios
       .get(url)
       .then(res => {
-        console.log(JSON.stringify(res.data));
         this.hitokoto = res.data;
       })
       .catch(() => {});
