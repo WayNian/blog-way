@@ -3,7 +3,7 @@
     <v-content>
       <v-container fill-height>
         <v-layout justify-center>
-          <div>
+          <v-flex>
             <v-tabs
               slot="extension"
               v-model="model"
@@ -11,21 +11,90 @@
               color="transparent"
               slider-color="yellow"
             >
-              <v-tab v-for="i in 3" :key="i" :href="`#tab-${i}`">
-                Item {{ i }}
+              <v-tab
+                v-for="(i, index) in tabArr"
+                :key="index"
+                :href="`#tab-${index}`"
+              >
+                {{ i }}
               </v-tab>
             </v-tabs>
             <v-tabs-items v-model="model">
-              <v-tab-item v-for="i in 3" :id="`tab-${i}`" :key="i">
-                <v-card flat>
-                  <v-card-text
-                    v-text="text"
-                    class="grey--text text--darken-3"
-                  ></v-card-text>
-                </v-card>
+              <v-tab-item
+                v-for="(i, index) in tabArr"
+                :id="`tab-${index}`"
+                :key="index"
+              >
+                <v-layout>
+                  <v-flex xs12>
+                    <v-container v-bind="{ [`grid-list-lg`]: true }" fluid lg12>
+                      <v-layout row wrap>
+                        <v-flex v-for="n in 16" :key="n" xs12 lg3 md3>
+                          <v-hover>
+                            <v-card
+                              flat
+                              tile
+                              slot-scope="{ hover }"
+                              :class="`elevation-${hover ? 12 : 2}`"
+                              class="mx-auto"
+                            >
+                              <v-img
+                                :src="
+                                  `https://picsum.photos/500/300?image=${n * 5 +
+                                    10}`
+                                "
+                                :lazy-src="
+                                  `https://picsum.photos/10/6?image=${n * 5 +
+                                    10}`
+                                "
+                                :aspect-ratio="16 / 9"
+                                class="grey lighten-2"
+                              >
+                                <v-layout
+                                  slot="placeholder"
+                                  fill-height
+                                  align-center
+                                  justify-center
+                                  ma-0
+                                >
+                                  <v-progress-circular
+                                    indeterminate
+                                    color="grey lighten-5"
+                                  ></v-progress-circular> </v-layout
+                              ></v-img>
+                              <v-card-title>
+                                <div>
+                                  <span class="headline">Cafe Badilico</span>
+                                  <div class="d-flex">
+                                    <v-rating
+                                      :value="value"
+                                      color="amber"
+                                      dense
+                                      half-increments
+                                      readonly
+                                      size="14"
+                                    ></v-rating>
+                                    <div class="ml-2 grey--text text--darken-2">
+                                      <span>{{ value }}</span>
+                                      <span>({{ reviews }})</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <v-spacer></v-spacer>
+                                <v-btn icon class="mr-0">
+                                  <v-icon>fas fa-chevron-right</v-icon>
+                                </v-btn>
+                              </v-card-title>
+                            </v-card>
+                          </v-hover>
+                        </v-flex>
+                      </v-layout>
+                    </v-container>
+                  </v-flex>
+                </v-layout>
               </v-tab-item>
             </v-tabs-items>
-          </div>
+          </v-flex>
         </v-layout>
       </v-container>
     </v-content>
@@ -35,9 +104,10 @@
 <script>
 export default {
   data: () => ({
-    model: "tab-2",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    model: "tab-0",
+    tabArr: ["列表", "热门"],
+    reviews: 413,
+    value: 4.5
   }),
   mounted() {}
 };</script

@@ -1,17 +1,21 @@
 <template>
   <v-app light>
     <v-content class="white--text">
-      <v-container fill-height>
+      <v-container fill-height text-xs-center>
         <v-layout justify-center>
           <v-flex shrink md5>
+            <v-flex xs10 offset-xs1 v-if="!oneArticle.title">
+              <v-progress-circular
+                indeterminate
+                color="red"
+              ></v-progress-circular>
+            </v-flex>
             <v-card-text>
-              <h1
-                class="grey--text text--darken-3 headline font-weight-bold text-xs-center"
-              >
+              <h1 class="grey--text text--darken-3 headline font-weight-bold ">
                 {{ oneArticle.title }}
               </h1>
               <br />
-              <h1 class="grey--text text--darken-3 subheading text-xs-center">
+              <h1 class="grey--text text--darken-3 subheading ">
                 {{ oneArticle.author }}
               </h1>
               <br />
