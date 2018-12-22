@@ -24,11 +24,7 @@ const staticRoute = [
         path: "article",
         component: () => import("../views/Article")
       },
-      {
-        path: "article-info/:id",
-        name: "article-info",
-        component: () => import("../views/ArticleInfo")
-      },
+
       {
         path: "archives",
         component: () => import("../views/Archives")
@@ -50,6 +46,11 @@ const staticRoute = [
         component: () => import("../views/Comments")
       }
     ]
+  },
+  {
+    path: "article-info/:id",
+    name: "article-info",
+    component: () => import("../views/ArticleInfo")
   },
   {
     path: "/login",

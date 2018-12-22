@@ -48,7 +48,8 @@
                                     10}`
                                 "
                                 :aspect-ratio="16 / 9"
-                                class="grey lighten-2"
+                                class="grey lighten-2 click-img"
+                                @click="toArticleInfo(n)"
                               >
                                 <v-layout
                                   slot="placeholder"
@@ -65,6 +66,7 @@
                               <v-card-title>
                                 <div>
                                   <span class="headline">Cafe Badilico</span>
+                                  <div>2018年12月22日</div>
                                   <div class="d-flex">
                                     <v-rating
                                       :value="value"
@@ -81,7 +83,11 @@
                                   </div>
                                 </div>
                                 <v-spacer></v-spacer>
-                                <v-btn icon class="mr-0">
+                                <v-btn
+                                  icon
+                                  class="mr-0"
+                                  @click="toArticleInfo(n)"
+                                >
                                   <v-icon>fas fa-chevron-right</v-icon>
                                 </v-btn>
                               </v-card-title>
@@ -109,6 +115,22 @@ export default {
     reviews: 413,
     value: 4.5
   }),
-  mounted() {}
-};</script
->s <style lang="scss" scoped></style>
+  mounted() {},
+  methods: {
+    toArticleInfo(id) {
+      this.$router.push({
+        name: "article-info",
+        params: {
+          id: id
+        }
+      });
+    }
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+.click-img {
+  cursor: pointer;
+}
+</style>

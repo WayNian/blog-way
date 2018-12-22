@@ -36,7 +36,7 @@
       </v-layout>
     </v-toolbar>
     <router-view />
-    <transition name="fade">
+    <transition name="fade" class="hidden-md-and-down">
       <v-btn
         fab
         bottom
@@ -62,7 +62,7 @@ export default {
     dialog: false,
     drawer: null,
     items: [
-      { icon: "fas fa-book-open", text: "每日一读", path: "/one-read" },
+      { icon: "fas fa-book-open", text: "一读", path: "/one-read" },
       { icon: "fas fa-blog", text: "博客", path: "/article" },
       { icon: "fas fa-link", text: "友链", path: "/link" },
       { icon: "fas fa-archive", text: "归档", path: "/archives" },
