@@ -29,7 +29,7 @@
                   <v-flex xs12>
                     <v-container v-bind="{ [`grid-list-lg`]: true }" fluid lg12>
                       <v-layout row wrap>
-                        <v-flex v-for="n in 16" :key="n" xs12 lg3 md3>
+                        <v-flex v-for="n in 16" :key="n" xs12 lg4 md4>
                           <v-hover>
                             <v-card
                               flat
@@ -48,7 +48,7 @@
                                     10}`
                                 "
                                 :aspect-ratio="16 / 9"
-                                class="grey lighten-2 click-img"
+                                class="grey lighten-2 click-change"
                                 @click="toArticleInfo(n)"
                               >
                                 <v-layout
@@ -64,32 +64,31 @@
                                   ></v-progress-circular> </v-layout
                               ></v-img>
                               <v-card-title>
-                                <div>
-                                  <span class="headline">Cafe Badilico</span>
-                                  <div>2018年12月22日</div>
-                                  <div class="d-flex">
-                                    <v-rating
-                                      :value="value"
-                                      color="amber"
-                                      dense
-                                      half-increments
-                                      readonly
-                                      size="14"
-                                    ></v-rating>
-                                    <div class="ml-2 grey--text text--darken-2">
-                                      <span>{{ value }}</span>
-                                      <span>({{ reviews }})</span>
-                                    </div>
-                                  </div>
-                                </div>
-                                <v-spacer></v-spacer>
-                                <v-btn
-                                  icon
-                                  class="mr-0"
-                                  @click="toArticleInfo(n)"
+                                <v-flex
+                                  xs12
+                                  class="title click-change shadow-text"
+                                  >Cafe Badilico</v-flex
                                 >
-                                  <v-icon>fas fa-chevron-right</v-icon>
-                                </v-btn>
+                                <v-flex xs12>
+                                  <span
+                                    v-for="item in 3"
+                                    :key="item"
+                                    outline
+                                    class="brown--text text--darken-4 body-2 click-change shadow-text"
+                                    >HTML
+                                  </span>
+                                </v-flex>
+                                <v-flex xs6>
+                                  <div class="grey--text text--darken-2">
+                                    <span
+                                      >阅读:{{ value }}&nbsp;&nbsp;&nbsp;</span
+                                    >
+                                    <span>评论:{{ reviews }}</span>
+                                  </div>
+                                </v-flex>
+                                <v-flex xs6 grey--text text--darken-2>
+                                  <div class="text-xs-right">2天前</div>
+                                </v-flex>
                               </v-card-title>
                             </v-card>
                           </v-hover>
@@ -130,7 +129,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.click-img {
+.click-change {
   cursor: pointer;
+}
+.shadow-text {
+  margin-right: 10px;
+  &:hover {
+    text-shadow: 0 1px 2px rgba(99, 96, 92, 0.445);
+  }
 }
 </style>
