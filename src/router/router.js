@@ -48,7 +48,7 @@ const staticRoute = [
     ]
   },
   {
-    path: "article-info/:id",
+    path: "/article-info/:id",
     name: "article-info",
     component: () => import("../views/ArticleInfo")
   },
@@ -92,17 +92,14 @@ const router = new Router({
   routes: staticRoute
 });
 
-router.beforeEach((to, from, next) => {
-  if (to.path.indexOf("/manage") >= 0) {
-    next({
-      path: "/login",
-      replace: true
-    });
-  } else if (to.path.indexOf("/error") >= 0) {
-    next();
-  } else {
-    next();
-  }
-});
+// router.beforeEach((to, from, next) => {
+//   console.log(to);
+
+//   if (to.path.indexOf("/error") >= 0) {
+//     next();
+//   } else {
+//     next();
+//   }
+// });
 
 export default router;

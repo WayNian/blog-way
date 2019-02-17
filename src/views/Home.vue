@@ -141,7 +141,7 @@
                       ><v-progress-linear
                         background-color="pink lighten-3"
                         color="pink lighten-1"
-                        value="60"
+                        value="40"
                       ></v-progress-linear
                     ></v-list-tile-title>
                   </v-list-tile-content>
@@ -157,7 +157,7 @@
                       ><v-progress-linear
                         background-color="pink lighten-3"
                         color="pink lighten-1"
-                        value="55"
+                        value="30"
                       ></v-progress-linear
                     ></v-list-tile-title>
                   </v-list-tile-content>
@@ -173,7 +173,7 @@
                       ><v-progress-linear
                         background-color="pink lighten-3"
                         color="pink lighten-1"
-                        value="65"
+                        value="50"
                       ></v-progress-linear
                     ></v-list-tile-title>
                   </v-list-tile-content>
@@ -189,7 +189,7 @@
                       ><v-progress-linear
                         background-color="pink lighten-3"
                         color="pink lighten-1"
-                        value="45"
+                        value="27"
                       ></v-progress-linear
                     ></v-list-tile-title>
                   </v-list-tile-content>
@@ -205,7 +205,7 @@
                       ><v-progress-linear
                         background-color="pink lighten-3"
                         color="pink lighten-1"
-                        value="40"
+                        value="23"
                       ></v-progress-linear
                     ></v-list-tile-title>
                   </v-list-tile-content>
@@ -239,7 +239,7 @@
                     >
                   </v-list-tile-action>
                   <v-list-tile-content>
-                    <v-list-tile-title>wn520-ice</v-list-tile-title>
+                    <v-list-tile-title>waynian</v-list-tile-title>
                   </v-list-tile-content>
                 </v-list-tile>
                 <v-list-tile>

@@ -29,7 +29,13 @@
                   <v-flex xs12>
                     <v-container v-bind="{ [`grid-list-lg`]: true }" fluid lg12>
                       <v-layout row wrap>
-                        <v-flex v-for="n in 16" :key="n" xs12 lg4 md4>
+                        <v-flex
+                          v-for="(item, index) in blogList"
+                          :key="index"
+                          xs12
+                          lg4
+                          md4
+                        >
                           <v-hover>
                             <v-card
                               flat
@@ -40,16 +46,18 @@
                             >
                               <v-img
                                 :src="
-                                  `https://picsum.photos/500/300?image=${n * 5 +
+                                  `https://picsum.photos/500/300?image=${index *
+                                    5 +
                                     10}`
                                 "
                                 :lazy-src="
-                                  `https://picsum.photos/10/6?image=${n * 5 +
+                                  `https://picsum.photos/10/6?image=${index *
+                                    5 +
                                     10}`
                                 "
                                 :aspect-ratio="16 / 9"
                                 class="grey lighten-2 click-change"
-                                @click="toArticleInfo(n)"
+                                @click="toArticleInfo(item)"
                               >
                                 <v-layout
                                   slot="placeholder"
@@ -66,8 +74,8 @@
                               <v-card-title>
                                 <v-flex
                                   xs12
-                                  class="title click-change shadow-text"
-                                  >Cafe Badilico</v-flex
+                                  class="title click-change shadow-text blog-title"
+                                  >{{ item.title }}</v-flex
                                 >
                                 <v-flex xs12>
                                   <span
@@ -81,7 +89,9 @@
                                 <v-flex xs6>
                                   <div class="grey--text text--darken-2">
                                     <span
-                                      >阅读:{{ value }}&nbsp;&nbsp;&nbsp;</span
+                                      >阅读:{{
+                                        item.readNum
+                                      }}&nbsp;&nbsp;&nbsp;</span
                                     >
                                     <span>评论:{{ reviews }}</span>
                                   </div>
@@ -107,21 +117,32 @@
 </template>
 
 <script>
+import http from "../http";
 export default {
   data: () => ({
     model: "tab-0",
     tabArr: ["列表", "热门"],
-    reviews: 413,
-    value: 4.5
+    reviews: 0,
+    value: 4.5,
+    blogList: []
   }),
-  mounted() {},
+  mounted() {
+    http.get("blogs/list", {}).then(res => {
+      console.log("--->>>", res);
+      this.blogList = res.data.blogList;
+    });
+  },
   methods: {
-    toArticleInfo(id) {
+    toArticleInfo(item) {
       this.$router.push({
         name: "article-info",
         params: {
-          id: id
+          id: item._id
         }
+        // path: "/article-info",
+        // query: {
+        //   id: item._id
+        // }
       });
     }
   }
@@ -137,5 +158,10 @@ export default {
   &:hover {
     text-shadow: 0 1px 2px rgba(99, 96, 92, 0.445);
   }
+}
+.blog-title {
+  text-overflow: ellipsis; //让超出的用...实现
+  white-space: nowrap; //禁止换行
+  overflow: hidden; //超出的隐藏
 }
 </style>
