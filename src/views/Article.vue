@@ -75,6 +75,7 @@
                                 <v-flex
                                   xs12
                                   class="title click-change shadow-text blog-title"
+                                  @click="toArticleInfo(item)"
                                   >{{ item.title }}</v-flex
                                 >
                                 <v-flex xs12>

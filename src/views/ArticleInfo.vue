@@ -17,7 +17,7 @@
       <p xs12 class="title font-weight-bold text-xs-center">
         {{ blogInfo.title }}
       </p>
-      <p v-html="blogInfo.content"></p>
+      <p v-html="blogInfo.html"></p>
     </v-flex>
   </v-content>
 </template>
@@ -30,7 +30,7 @@ export default {
   }),
   mounted() {
     const id = this.$route.params.id;
-    http.post("blogs/info", { id }).then(res => {
+    http.get("blogs/info", { id }).then(res => {
       console.log("--->>>", res);
       this.blogInfo = res.data.blogInfo;
     });

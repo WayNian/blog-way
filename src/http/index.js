@@ -5,7 +5,7 @@ import axios from "axios";
 
 // 环境的切换
 if (process.env.NODE_ENV == "development") {
-  axios.defaults.baseURL = "http://localhost:3000/";
+  axios.defaults.baseURL = "https://api.waynian.com/";
   // axios.defaults.baseURL = "http://localhost/api/";
 } else if (process.env.NODE_ENV == "debug") {
   axios.defaults.baseURL = "http://192.168.81.235:8848/api/";
