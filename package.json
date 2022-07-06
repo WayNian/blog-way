@@ -9,9 +9,9 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "2.0.0-beta.48"
+    "vuepress": "^2.0.0-beta.48"
   },
   "dependencies": {
-    "vuepress-theme-way": "^2.0.0-beta.7"
+    "vuepress-theme-way": "^2.0.0-beta.8"
   }
 }
