@@ -177,7 +177,7 @@
 
 "@vuepress/bundler-vite@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/bundler-vite/-/bundler-vite-2.0.0-beta.48.tgz#f0cd263995ff9df036c8b8f9848606ff886cdcde"
+  resolved "https://registry.npmmirror.com/@vuepress/bundler-vite/-/bundler-vite-2.0.0-beta.48.tgz#f0cd263995ff9df036c8b8f9848606ff886cdcde"
   integrity sha512-ORT1cY2ScBWVuN/oCa5z0GqkbpdDmy6Pf0oe3GdiPA/w0kUbKeUPrWGDGHINqrSyvN0h5GbmLbvw6jSeUr2gAQ==
   dependencies:
     "@vitejs/plugin-vue" "^2.3.3"
@@ -195,7 +195,7 @@
 
 "@vuepress/cli@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/cli/-/cli-2.0.0-beta.48.tgz#6c01efbaa808e3948d692580ec154d0c4fc39778"
+  resolved "https://registry.npmmirror.com/@vuepress/cli/-/cli-2.0.0-beta.48.tgz#6c01efbaa808e3948d692580ec154d0c4fc39778"
   integrity sha512-nsLTNyQqKpwZXNrP0rJnDfvoBHm0KtdgLUIq5mfib9DTMic0ziaBUlfUvavcz18ovg3MwtLSUQbSjIsQskdaIw==
   dependencies:
     "@vuepress/core" "2.0.0-beta.48"
@@ -208,7 +208,7 @@
 
 "@vuepress/client@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/client/-/client-2.0.0-beta.48.tgz#a13d0d514ed3f9095caaa52bf5e173bb9e1570f7"
+  resolved "https://registry.npmmirror.com/@vuepress/client/-/client-2.0.0-beta.48.tgz#a13d0d514ed3f9095caaa52bf5e173bb9e1570f7"
   integrity sha512-XqTmoNqgJuO5IpiEQl3xZOFVZ/oXxCk5LNg+432/4hOTz92VdzOn1KNIQFmWxZaQ6s+8v6BimqRi0ZxMCwQ+Pg==
   dependencies:
     "@vue/devtools-api" "^6.1.4"
@@ -218,7 +218,7 @@
 
 "@vuepress/core@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/core/-/core-2.0.0-beta.48.tgz#ed5effabbf2590a1dfc400a63048bff16ae18cd5"
+  resolved "https://registry.npmmirror.com/@vuepress/core/-/core-2.0.0-beta.48.tgz#ed5effabbf2590a1dfc400a63048bff16ae18cd5"
   integrity sha512-J9fge3oV5amAkx2g8TOPp8EpHyFgm6jy/FbCkYIGCBkKiERn91iz5aGCgoUF4O8AToLekbKpLwdZtNKF+wxAew==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
@@ -231,7 +231,7 @@
 
 "@vuepress/markdown@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/markdown/-/markdown-2.0.0-beta.48.tgz#c6f95f3dc7b473ca4ff34bad1e4754d43e60432c"
+  resolved "https://registry.npmmirror.com/@vuepress/markdown/-/markdown-2.0.0-beta.48.tgz#c6f95f3dc7b473ca4ff34bad1e4754d43e60432c"
   integrity sha512-gbrVAgJRsQ5hxJM7yyoNv5NbtlgxW/YVyfhFG28aac5gyQ6p3WTOJjpH//F1H431gDVqXS+q+Umhb/vH2QWalg==
   dependencies:
     "@types/markdown-it" "^12.2.3"
@@ -244,7 +244,7 @@
 
 "@vuepress/plugin-active-header-links@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-active-header-links/-/plugin-active-header-links-2.0.0-beta.48.tgz#3376a2945fadb6442c1b13852a4cd5c294ca9fdd"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-2.0.0-beta.48.tgz#3376a2945fadb6442c1b13852a4cd5c294ca9fdd"
   integrity sha512-xNR3qTk9ECmYf5mvXhv2DpZu2VIxd6iVQ5Kvkw29zDjZc42uxo7QU9uIhAg6BOy0hNDFyn33DUxqlj7abpUf4w==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
@@ -256,7 +256,7 @@
 
 "@vuepress/plugin-back-to-top@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-back-to-top/-/plugin-back-to-top-2.0.0-beta.48.tgz#f5dc5387fbf731af6b17905c646c9388352d79cc"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-2.0.0-beta.48.tgz#f5dc5387fbf731af6b17905c646c9388352d79cc"
   integrity sha512-TYmtNnE+WoKbI1DnUzKGEprp5CVfvisuZCOi0coEA4g1jrSoEX6hgO4i+k8621ZBmpIdmIhI2+saoVdqN2duUw==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
@@ -267,7 +267,7 @@
 
 "@vuepress/plugin-container@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-container/-/plugin-container-2.0.0-beta.48.tgz#2289886335aa489400ef1c84acb0576685729338"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-container/-/plugin-container-2.0.0-beta.48.tgz#2289886335aa489400ef1c84acb0576685729338"
   integrity sha512-EdPXZRmhjbfZdTMGCzyj5G3xbZEjh2VWuFNbNYy5K195OnF+gO/GOJmIso1fnqmRdBgkHQkwdOqz/bZ6CuJP/g==
   dependencies:
     "@types/markdown-it" "^12.2.3"
@@ -280,7 +280,7 @@
 
 "@vuepress/plugin-external-link-icon@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-external-link-icon/-/plugin-external-link-icon-2.0.0-beta.48.tgz#e74692384aadc5cb6d8de03c87ab26441101a297"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-external-link-icon/-/plugin-external-link-icon-2.0.0-beta.48.tgz#e74692384aadc5cb6d8de03c87ab26441101a297"
   integrity sha512-RXENrUGpE8L32bsRxrxepRclvz/RVRA6Wj1NLTBweitxpbJukRNTsCX9mD/8KwQWc3Rkf+Zv+k6NDe5rDPoLeg==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
@@ -292,7 +292,7 @@
 
 "@vuepress/plugin-git@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-git/-/plugin-git-2.0.0-beta.48.tgz#7a7f610b84a625d0ce1313454e3a25e4beda343f"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-git/-/plugin-git-2.0.0-beta.48.tgz#7a7f610b84a625d0ce1313454e3a25e4beda343f"
   integrity sha512-ycNGAl+O1kHErsPt7uWGsR0S/o09b7JZnssM2WxWJPA9E+MtSgm6YzQcV8uK22GF2OCrwtv2z/6cNLkGz+NDfA==
   dependencies:
     "@vuepress/core" "2.0.0-beta.48"
@@ -301,7 +301,7 @@
 
 "@vuepress/plugin-medium-zoom@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-2.0.0-beta.48.tgz#8665d58c67116ecfdcbce22079bfde1c509a32d0"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-2.0.0-beta.48.tgz#8665d58c67116ecfdcbce22079bfde1c509a32d0"
   integrity sha512-CQIJo/ndHYjrOBwyzp4TP6AfwNGi1aae9BATlIyXl/xxFqX4hD7DN6JqYJ78tbgPMCU5I3H5UY1RNd6dfV4T+A==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
@@ -312,7 +312,7 @@
 
 "@vuepress/plugin-nprogress@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-nprogress/-/plugin-nprogress-2.0.0-beta.48.tgz#55052917ec5f05eae8049c0fd1c96655c784bc49"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-nprogress/-/plugin-nprogress-2.0.0-beta.48.tgz#55052917ec5f05eae8049c0fd1c96655c784bc49"
   integrity sha512-qA6SZ/R9ufnMR6qQbTAqWGxtNOIzxrA3gopOaNuD8T+hGJVTnYeGwDFk2S30G5HuqgbECsYDQfomo6SOjyREZQ==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
@@ -323,7 +323,7 @@
 
 "@vuepress/plugin-palette@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-palette/-/plugin-palette-2.0.0-beta.48.tgz#2a0d8895849628a9da8f1d78b341a59895abc075"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-palette/-/plugin-palette-2.0.0-beta.48.tgz#2a0d8895849628a9da8f1d78b341a59895abc075"
   integrity sha512-zqWk2NV1gInPLqlHGgu7YO7dsRMJz28pMzcL7Z/SuI+rGu/MKqCSk6IBC/Fz7xO09XA+Ke8a+zxfVINnhpdH8Q==
   dependencies:
     "@vuepress/core" "2.0.0-beta.48"
@@ -332,7 +332,7 @@
 
 "@vuepress/plugin-prismjs@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-prismjs/-/plugin-prismjs-2.0.0-beta.48.tgz#fe4517cd9501aa7f2a03d37c5421bce71e340263"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-prismjs/-/plugin-prismjs-2.0.0-beta.48.tgz#fe4517cd9501aa7f2a03d37c5421bce71e340263"
   integrity sha512-xTdk3DEJmzuzeRcm0fZfJFLs6/oN2T/sm+KtSh7whVbHcgEKFdj0vHkiWswp3bnNWE3FHUwO1UQq9K21zEwpUw==
   dependencies:
     "@vuepress/core" "2.0.0-beta.48"
@@ -340,7 +340,7 @@
 
 "@vuepress/plugin-theme-data@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-theme-data/-/plugin-theme-data-2.0.0-beta.48.tgz#a3a4148faa6e04611752c19bafa53cb4a497903a"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-theme-data/-/plugin-theme-data-2.0.0-beta.48.tgz#a3a4148faa6e04611752c19bafa53cb4a497903a"
   integrity sha512-7DH/tKiPg63wA77C9xNVF5Le5r1Apmd9mvz4NEeG0dhmuSPr456oM8aApE0s1XkY+vrmIXsTUjDK8+HvF8irUQ==
   dependencies:
     "@vue/devtools-api" "^6.1.4"
@@ -352,14 +352,14 @@
 
 "@vuepress/shared@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/shared/-/shared-2.0.0-beta.48.tgz#b1c815232e26639210aae6ddc8c9d1e7e091b026"
+  resolved "https://registry.npmmirror.com/@vuepress/shared/-/shared-2.0.0-beta.48.tgz#b1c815232e26639210aae6ddc8c9d1e7e091b026"
   integrity sha512-0i3lklFroOAtaHWfCjyvwBe8u5Jl668C/aMe9MWrsQI2qv40LiExgm82nNxc3tD2hoKKVpIxRvWaKXbJI1VXjg==
   dependencies:
     "@vue/shared" "^3.2.36"
 
 "@vuepress/theme-default@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/theme-default/-/theme-default-2.0.0-beta.48.tgz#a4a82d4c13c605c06e366f4ccc1c04c1a048e033"
+  resolved "https://registry.npmmirror.com/@vuepress/theme-default/-/theme-default-2.0.0-beta.48.tgz#a4a82d4c13c605c06e366f4ccc1c04c1a048e033"
   integrity sha512-dJfqO1XW23es7d84B/iEOzKfwNtB0+UoG1PNOhDua2rPpDreOcO1sI2DntmOClYaRR/SB7zSdiSEynzRC5Nwrw==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
@@ -383,7 +383,7 @@
 
 "@vuepress/utils@2.0.0-beta.48":
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/@vuepress/utils/-/utils-2.0.0-beta.48.tgz#5513a21f2e66a1c110b66ac8a6065b328fca9ac9"
+  resolved "https://registry.npmmirror.com/@vuepress/utils/-/utils-2.0.0-beta.48.tgz#5513a21f2e66a1c110b66ac8a6065b328fca9ac9"
   integrity sha512-Y0e3j0SHkPHMWnNlZZOcdN3G4zhdTIs63Ywy4IULFsrpKAihRIUcSe4Yry6lCJyYCCS/gebwc1fQYAmPuNkijg==
   dependencies:
     "@types/debug" "^4.1.7"
@@ -523,14 +523,14 @@ braces@^3.0.2, braces@~3.0.2:
     fill-range "^7.0.1"
 
 browserslist@^4.20.3:
-  version "4.21.0"
-  resolved "https://registry.npmmirror.com/browserslist/-/browserslist-4.21.0.tgz#7ab19572361a140ecd1e023e2c1ed95edda0cefe"
-  integrity sha512-UQxE0DIhRB5z/zDz9iA03BOfxaN2+GQdBYH/2WrSIWEUrnpzTPJbhqt+umq6r3acaPRTW1FNTkrcp0PXgtFkvA==
+  version "4.21.1"
+  resolved "https://registry.npmmirror.com/browserslist/-/browserslist-4.21.1.tgz#c9b9b0a54c7607e8dc3e01a0d311727188011a00"
+  integrity sha512-Nq8MFCSrnJXSc88yliwlzQe3qNe3VntIjhsArW9IJOEPSHNx23FalwApUVbzAWABLhYJJ7y8AynWI/XM8OdfjQ==
   dependencies:
-    caniuse-lite "^1.0.30001358"
-    electron-to-chromium "^1.4.164"
+    caniuse-lite "^1.0.30001359"
+    electron-to-chromium "^1.4.172"
     node-releases "^2.0.5"
-    update-browserslist-db "^1.0.0"
+    update-browserslist-db "^1.0.4"
 
 buffer@^5.5.0:
   version "5.7.1"
@@ -545,10 +545,10 @@ cac@^6.7.12:
   resolved "https://registry.npmmirror.com/cac/-/cac-6.7.12.tgz#6fb5ea2ff50bd01490dbda497f4ae75a99415193"
   integrity sha512-rM7E2ygtMkJqD9c7WnFU6fruFcN3xe4FM5yUmgxhZzIKJk4uHl9U/fhwdajGFQbQuv43FAUo1Fe8gX/oIKDeSA==
 
-caniuse-lite@^1.0.30001335, caniuse-lite@^1.0.30001358:
-  version "1.0.30001359"
-  resolved "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001359.tgz#a1c1cbe1c2da9e689638813618b4219acbd4925e"
-  integrity sha512-Xln/BAsPzEuiVLgJ2/45IaqD9jShtk3Y33anKb4+yLwQzws3+v6odKfpgES/cDEaZMLzSChpIGdbOYtH9MyuHw==
+caniuse-lite@^1.0.30001335, caniuse-lite@^1.0.30001359:
+  version "1.0.30001361"
+  resolved "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001361.tgz#ba2adb2527566fb96f3ac7c67698ae7fc495a28d"
+  integrity sha512-ybhCrjNtkFji1/Wto6SSJKkWk6kZgVQsDq5QI83SafsF6FXv2JB4df9eEdH6g8sdGgqTXrFLjAxqBGgYoU3azQ==
 
 chalk@^4.1.0, chalk@^4.1.2:
   version "4.1.2"
@@ -630,7 +630,7 @@ csstype@^2.6.8:
 
 dayjs@^1.11.3:
   version "1.11.3"
-  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.11.3.tgz#4754eb694a624057b9ad2224b67b15d552589258"
+  resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.3.tgz#4754eb694a624057b9ad2224b67b15d552589258"
   integrity sha512-xxwlswWOlGhzgQ4TKzASQkUhqERI3egRNqgV4ScR8wlANA/A9tZ7miXa44vTTKEq5l7vWoL5G57bG3zA+Kow0A==
 
 debug@^4.3.4:
@@ -659,10 +659,10 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-electron-to-chromium@^1.4.164:
-  version "1.4.172"
-  resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.172.tgz#87335795a3dc19e7b6dd5af291038477d81dc6b1"
-  integrity sha512-yDoFfTJnqBAB6hSiPvzmsBJSrjOXJtHSJoqJdI/zSIh7DYupYnIOHt/bbPw/WE31BJjNTybDdNAs21gCMnTh0Q==
+electron-to-chromium@^1.4.172:
+  version "1.4.174"
+  resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.174.tgz#ffdf57f26dd4558c5aabdb4b190c47af1c4e443b"
+  integrity sha512-JER+w+9MV2MBVFOXxP036bLlNOnzbYAWrWU8sNUwoOO69T3w4564WhM5H5atd8VVS8U4vpi0i0kdoYzm1NPQgQ==
 
 entities@~3.0.1:
   version "3.0.1"
@@ -1444,7 +1444,7 @@ upath@^2.0.1:
   resolved "https://registry.npmmirror.com/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
   integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
 
-update-browserslist-db@^1.0.0:
+update-browserslist-db@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmmirror.com/update-browserslist-db/-/update-browserslist-db-1.0.4.tgz#dbfc5a789caa26b1db8990796c2c8ebbce304824"
   integrity sha512-jnmO2BEGUjsMOe/Fg9u0oczOe/ppIDZPebzccl1yDWGLFP16Pa1/RM5wEoKYPG2zstNcDuAStejyxsOuKINdGA==
@@ -1494,7 +1494,7 @@ vue@^3.2.36, vue@^3.2.37:
 
 vuepress-plugin-blog2@2.0.0-beta.84:
   version "2.0.0-beta.84"
-  resolved "https://registry.npmjs.org/vuepress-plugin-blog2/-/vuepress-plugin-blog2-2.0.0-beta.84.tgz#0c4db2d40ebbeacd49cd39bd24794d4c8558f6a1"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-blog2/-/vuepress-plugin-blog2-2.0.0-beta.84.tgz#0c4db2d40ebbeacd49cd39bd24794d4c8558f6a1"
   integrity sha512-ZaZFzkyLw8Aiih5UirJEAalEKv4y3p8ft68t09LBk3bMGBhTlMu2zzw6zQyK2ZBsvKoZfCO437txM98kPR9TfQ==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
@@ -1507,7 +1507,7 @@ vuepress-plugin-blog2@2.0.0-beta.84:
 
 vuepress-shared@2.0.0-beta.84:
   version "2.0.0-beta.84"
-  resolved "https://registry.npmjs.org/vuepress-shared/-/vuepress-shared-2.0.0-beta.84.tgz#f14ad18c3c72c5ce0aa546635c3c37ba4586a1fe"
+  resolved "https://registry.npmmirror.com/vuepress-shared/-/vuepress-shared-2.0.0-beta.84.tgz#f14ad18c3c72c5ce0aa546635c3c37ba4586a1fe"
   integrity sha512-yfN2ng7X0oFlIPLX3AJMK8PuQYrqcKrKa8Gm77sH3bGKJjhKBr7UO9jXh/io3vBIoqd4vjiKHYyOHJqB/nIWoQ==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
@@ -1521,10 +1521,10 @@ vuepress-shared@2.0.0-beta.84:
     vue "^3.2.37"
     vue-router "^4.0.16"
 
-vuepress-theme-way@^2.0.0-beta.6:
-  version "2.0.0-beta.6"
-  resolved "https://registry.npmjs.org/vuepress-theme-way/-/vuepress-theme-way-2.0.0-beta.6.tgz#5ca3c19532613003344ce8f0ea6246f4ded4a4db"
-  integrity sha512-yv4nOkMMmeqoZ/zuFQZko6slmxwF7tI8Uev5d+nccVgGo1Ij8fX8En9wxw2CHBYvnsEdN45PWD+MyPUL/QZdVw==
+vuepress-theme-way@^2.0.0-beta.7:
+  version "2.0.0-beta.7"
+  resolved "https://registry.npmmirror.com/vuepress-theme-way/-/vuepress-theme-way-2.0.0-beta.7.tgz#577ce029f7831ecf91d1a8f21cb09c413a2511b5"
+  integrity sha512-Y9NPEY2AhnBp1yZi9X1w+jyM5/coxYqxy5aJ+GFcxrS+XXaUmV/VE9IlhouNhZCYRePh+iKQyLE6KZVqmdo+gg==
   dependencies:
     "@vuepress/client" "2.0.0-beta.48"
     "@vuepress/core" "2.0.0-beta.48"
@@ -1541,12 +1541,12 @@ vuepress-theme-way@^2.0.0-beta.6:
     axios "^0.27.2"
     sass "^1.52.1"
     vue "^3.2.36"
-    vue-router "^4.0.15"
+    vue-router "^4.0.16"
     vuepress-plugin-blog2 "2.0.0-beta.84"
 
 vuepress-vite@2.0.0-beta.48:
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/vuepress-vite/-/vuepress-vite-2.0.0-beta.48.tgz#2f911105b9e564d1b7a08a0551c3349c9c9f5610"
+  resolved "https://registry.npmmirror.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.48.tgz#2f911105b9e564d1b7a08a0551c3349c9c9f5610"
   integrity sha512-1TKEXg26W7VlTBU9J6BcJTW/NFtzkAveM33jccVs6HieYgvK7lyTpbhs5eRu9fUWawGR8ULa+b5kdk0dSLpjew==
   dependencies:
     "@vuepress/bundler-vite" "2.0.0-beta.48"
@@ -1556,7 +1556,7 @@ vuepress-vite@2.0.0-beta.48:
 
 vuepress@2.0.0-beta.48:
   version "2.0.0-beta.48"
-  resolved "https://registry.npmjs.org/vuepress/-/vuepress-2.0.0-beta.48.tgz#ebac1c88550b32cbb40af6affc217ce50e121fa3"
+  resolved "https://registry.npmmirror.com/vuepress/-/vuepress-2.0.0-beta.48.tgz#ebac1c88550b32cbb40af6affc217ce50e121fa3"
   integrity sha512-m1CzjgMrHdrOzNr3eMoFrdqHlp3wK23TBIHZJtm9tDnwg4OF59FG6y6gGoBLo+zpfzVOwi/V8FR13ehiQwG/3A==
   dependencies:
     vuepress-vite "2.0.0-beta.48"
