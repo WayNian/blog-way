@@ -1,3 +1,5 @@
 export * from './navbar'
 export * from './about'
 export * from './links'
+export * from './products'
+export * from './web-links'
