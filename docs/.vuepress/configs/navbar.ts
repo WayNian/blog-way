@@ -6,7 +6,7 @@ export const navbarZh: NavbarConfig = [
     link: '/',
   },
   {
-    text: '友链',
+    text: '链接',
     link: '/links',
   },
   {
