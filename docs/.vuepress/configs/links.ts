@@ -25,14 +25,19 @@ export const linkGroup: LinkGroup[] = [
     ],
   },
   {
-    title: "Markdown工具",
+    title: "博客工具",
     children: [
-     
       {
         url: "https://badgen.net/",
         avatar: "https://badgen.net/static/badgen-logo.svg",
         name: "Badgen",
         description: "快速生成徽章",
+      },
+      {
+        url: "https://www.superbed.cn/",
+        avatar: "https://www.superbed.cn/favicon.ico",
+        name: "聚合图床",
+        description: "高速稳定的图片上传和外链服务",
       },
     ],
   },
