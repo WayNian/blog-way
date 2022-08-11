@@ -1,8 +1,8 @@
 ---
-title: Node同时使用esm和require
-subtitle: Node环境下，同时使用esm和require
+title: Node同时使用esm和cjs
+subtitle: Node环境下，同时使用esm和cjs两种导入方式
 author: waynian
-cover: https://pic.imgdb.cn/item/5ca3058f3a213b04178fcb1e.jpg
+cover: https://pic.imgdb.cn/item/5d63838d451253d1785dc22f.png
 date: 2022年8月10日
 tags: 
   - node.js
@@ -10,7 +10,7 @@ tags:
 ---
 
 
-> 在使用`commander`和`inquirer`的时候，发现最新版本的`inquirer`不支持`require`的方式，而`commander`还是`require`方式导入，导致在一个js文件中需要
+> 在使用`commander`和`inquirer`的时候，发现最新版本的`inquirer`不支持`require`的方式，而`commander`还是`require`方式导入，导致在一个js文件中需要同时使用`esm`和`cjs`两种导入方式
 
 ### node支持esm
 `node` v14版本之后，支持在`package.json`中定义 `"type": "module"`, 即可使用`import`导入。
