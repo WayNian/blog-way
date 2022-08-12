@@ -2794,10 +2794,10 @@ vuepress-plugin-sass-palette@2.0.0-beta.87:
     sass "^1.53.0"
     vuepress-shared "2.0.0-beta.87"
 
-vuepress-plugin-way-player@2.0.0-beta.13:
-  version "2.0.0-beta.13"
-  resolved "https://registry.npmjs.org/vuepress-plugin-way-player/-/vuepress-plugin-way-player-2.0.0-beta.13.tgz#f589ff02f2097846214f7a95ce8a3aa428db0604"
-  integrity sha512-LuLGiN9rZV/WdQHZbwtgKnWbuMisBg9Vu4KphHtqVBhm+NM6Tykadq2nH9qAQ6W9yvUk/DZkifWt2vC5oQCUBg==
+vuepress-plugin-way-player@2.0.0-beta.14:
+  version "2.0.0-beta.14"
+  resolved "https://registry.npmjs.org/vuepress-plugin-way-player/-/vuepress-plugin-way-player-2.0.0-beta.14.tgz#d57792986a1716c199fe9eea41ab57c074421e87"
+  integrity sha512-PyFf5S3GzW7R/FJh6RPH7TjvBbw0L8QcmPrS8oHx1LAM4xWo9g5i9aI5uWNnGyj06EjUpCLNZcVo39zex2a8kQ==
   dependencies:
     "@vuepress/client" "2.0.0-beta.49"
     "@vuepress/core" "2.0.0-beta.49"
@@ -2819,10 +2819,10 @@ vuepress-shared@2.0.0-beta.87:
     vue "^3.2.37"
     vue-router "^4.1.2"
 
-vuepress-theme-way@^2.0.0-beta.13:
-  version "2.0.0-beta.13"
-  resolved "https://registry.npmjs.org/vuepress-theme-way/-/vuepress-theme-way-2.0.0-beta.13.tgz#683bb705a53ea0f4909c954852e2d038d6b54e6c"
-  integrity sha512-94WP+fysju8p8CXBG0G4t66HWaR0lMEybVUHqH0XJYIo4Gc/O208M3KSyO5luyKYgY1Ix3smi8Tj64SPOLlYtA==
+vuepress-theme-way@^2.0.0-beta.14:
+  version "2.0.0-beta.14"
+  resolved "https://registry.npmjs.org/vuepress-theme-way/-/vuepress-theme-way-2.0.0-beta.14.tgz#4716d082c612c058ffa69a2f741e8214c02ff55c"
+  integrity sha512-vT57zEa0cWm1CLTtATC60A7z+zZpODeLXl1zb2LIRWnTQlUS155LOYvfLJx2Cw4lfx1j/r5sQwIJScuBpBkXtQ==
   dependencies:
     "@vuepress/client" "2.0.0-beta.49"
     "@vuepress/core" "2.0.0-beta.49"
@@ -2843,7 +2843,7 @@ vuepress-theme-way@^2.0.0-beta.13:
     vue-router "^4.1.2"
     vuepress-plugin-blog2 "2.0.0-beta.87"
     vuepress-plugin-md-enhance "2.0.0-beta.87"
-    vuepress-plugin-way-player "2.0.0-beta.13"
+    vuepress-plugin-way-player "2.0.0-beta.14"
 
 vuepress-vite@2.0.0-beta.49:
   version "2.0.0-beta.49"
