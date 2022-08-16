@@ -3,7 +3,7 @@ title: Node同时使用esm和cjs
 subtitle: Node环境下，同时使用esm和cjs两种导入方式
 author: waynian
 cover: https://pic.imgdb.cn/item/5d63838d451253d1785dc22f.png
-date: 2022年8月10日
+date: 2022-8-10
 tags: 
   - node.js
   - esm
