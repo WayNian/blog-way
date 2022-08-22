@@ -14,6 +14,9 @@ tags:
 
 ### 安装
 ```shell
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
     "rollup": "^2.78.0",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-sass": "^1.2.13",
