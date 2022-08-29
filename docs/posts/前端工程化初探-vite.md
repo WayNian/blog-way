@@ -10,11 +10,50 @@ tags:
 
 
 ## Vite
+[`vite`](https://cn.vitejs.dev/guide/)是`vue`团队开发的前端工具链。
+- dev模式，使用的是`esbuild`构建
+- build的时候，使用的是`rollup`进行打包构建
 
 ### 安装
 
-### 解析vue
+::: code-tabs#shell
 
+@tab pnpm
+
+```bash
+pnpm create vite
+```
+
+@tab yarn
+
+```bash
+yarn create vite
+```
+
+@tab npm
+
+```bash
+npm create vite@latest
+```
+
+:::
+
+### vite配置文件设置
+在`vite.config.ts`的`build`中配置`target: "modules"`，设置为库文件打包模式
+
+### 编译vue
+`vite`编译`vue`非常简单，直接安装，引入`@vitejs/plugin-vue`即可
+```js
+...
+import vue from "@vitejs/plugin-vue";
+...
+export default defineConfig({
+  plugins: [vue()]
+})
+
+
+
+```
 ### 打包scss
 
 ### 配置文件
@@ -39,9 +78,9 @@ export default defineConfig({
       formats: ["es", "cjs"],
     },
     rollupOptions: {
+      input: ["src/index.ts"],
       //忽略打包vue文件
       external: ["vue"],
-      input: ["src/index.ts"],
       output: [
         {
           format: "es",
